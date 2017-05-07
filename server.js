@@ -1,20 +1,3 @@
-// var mysql      = require('mysql');
-// var connection = mysql.createConnection({
-//     host     : 'sql12.freemysqlhosting.net',
-//     user     : 'sql12173019',
-//     password : 'wmxUjvYg8D',
-//     database : 'sql12173019'
-// });
-
-// connection.connect();
-// connection.query('INSERT INTO UserInformation(userName, userPassword) VALUES ( "Bharat", "Qwerty123")', function (err, recordset) {
-//   if (!err)
-//     console.log('The solution is: ', recordset);
-//   else
-//     console.log('Error while performing Query.');
-// });
-
-// connection.end();
 
 var express    = require('express');
 var mysql      = require('mysql');
@@ -44,7 +27,7 @@ connection.end();
   });
 });
 
-var server = app.listen(8081,199.59.243.120, function () {
+var server = app.listen(8080,10.129.43.155, function () {
 
   var host = server.address().address
   var port = server.address().port
